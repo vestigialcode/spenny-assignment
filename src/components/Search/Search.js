@@ -7,6 +7,7 @@ import {
   SearchButtonMap,
   StyledInputMap,
 } from "./Search.style";
+import {BsSearch} from 'react-icons/bs';
 
 const Search = ({ query, image }) => {
   const [text, setText] = useState("");
@@ -35,7 +36,7 @@ const Search = ({ query, image }) => {
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={onKeyDown}
       />
-      <SearchButton onClick={onClick}>Submit</SearchButton>
+      <SearchButton onClick={onClick}><BsSearch/></SearchButton>
     </StyledInputWrap>
   ) : (
     <StyledInputWrapMap>
@@ -46,7 +47,7 @@ const Search = ({ query, image }) => {
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={(e) => onKeyDown(e)}
       />
-      <SearchButtonMap onClick={onClick}>Submit</SearchButtonMap>
+      <SearchButtonMap onClick={onClick}> <BsSearch/></SearchButtonMap>
     </StyledInputWrapMap>
   );
 };
