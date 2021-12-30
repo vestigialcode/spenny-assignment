@@ -13,7 +13,7 @@ import { PageContainer } from "../../globalStyles";
 const FlickrImages = () => {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [query, setQuery] = useState("India");
+  const [query, setQuery] = useState("San fransiscos");
 
   useEffect(() => {
     const fetchItems = async () => {   //856469212751850d05909cd654396d65
