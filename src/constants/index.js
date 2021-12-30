@@ -9,6 +9,7 @@ export const BROWN_LIGHT ="345555"
 export const BLACK_LIGHT = "#2c2c34";
 export const GRAY_LIGHT = "#545463";
 export const ORANGE_YELLOW = "#d6a184";
+export const DEEP_BLUE = "#072A6C";
 
 //Breakpoints
 export const PHONE_BREAK = "889px";

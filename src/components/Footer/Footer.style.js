@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { BROWN, PHONE_BREAK, BROWN_LIGHT } from "../../constants";
+import {  PHONE_BREAK,  DEEP_BLUE } from "../../constants";
 
 export const FooterContainer = styled.div`
-  background-color: ${(props) => (props.swap ? `${BROWN_LIGHT}` : `${BROWN}`)};
+  background-color: ${(props) => (props.swap ? `${DEEP_BLUE}` : `${DEEP_BLUE}`)};
   padding: 10px 0;
   display: flex;
   flex-direction: column;

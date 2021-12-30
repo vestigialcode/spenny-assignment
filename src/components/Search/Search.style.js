@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BROWN } from "../../constants";
+import { DEEP_BLUE } from "../../constants";
 
 export const StyledInputWrap = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ export const StyledInput = styled.input.attrs({ type: "text" })`
 `;
 
 export const SearchButton = styled.button`
-  background-color: ${BROWN};
+  background-color: ${DEEP_BLUE};
   border: 0;
   border-radius: 20px;
   color: #fff;

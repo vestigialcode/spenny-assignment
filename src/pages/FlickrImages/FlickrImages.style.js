@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ORANGE_YELLOW } from "../../constants";
+import { DEEP_BLUE} from "../../constants";
 
 
 export const Cards = styled.div`
@@ -23,22 +23,16 @@ export const Header = styled.div`
 
 export const HeroTitle = styled.h1`
   display: flex;
-  font-size: 36px;
-  line-height: 48px;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: #fff;
+ 
+  
+  font-weight:500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
   text-align: center;
 `;
 
-export const HeroLittle = styled.p`
-  display: flex;
-  margin-top: 10px;
-  align-items: center;
-  text-align: center;
-  
-`;
+
 
 export const ImageContainer = styled.div`
   z-index: 1;
@@ -68,7 +62,7 @@ export const ImageInfo = styled.div`
 export const Text = styled.div`
   background-color: #fff;
   position: relative;
-  border-bottom: 1px solid ${ORANGE_YELLOW};
+  border-bottom: 1px solid ${DEEP_BLUE};
   font-size: 20px;
 `;
 

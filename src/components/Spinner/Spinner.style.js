@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BROWN } from "../../constants";
+import { DEEP_BLUE } from "../../constants";
 
 export const StyledSpinner = styled.img`
   width: 200px;
@@ -8,7 +8,7 @@ export const StyledSpinner = styled.img`
 `;
 
 export const SpinnerText = styled.div`
-  color: ${BROWN};
+  color: ${DEEP_BLUE};
   text-align: center;
   display: flex;
   font-size: 30px;

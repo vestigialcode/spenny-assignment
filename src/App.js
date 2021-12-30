@@ -14,10 +14,10 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
+      
       <ScrollToTop />
-
-     
-      <Switch>
+       <Switch>
+      
         <Route path="/" exact component={FlickrImages} />
         
        

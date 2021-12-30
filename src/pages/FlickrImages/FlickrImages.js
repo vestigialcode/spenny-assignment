@@ -5,7 +5,7 @@ import Search from "../../components/Search/Search";
 import {
   Header,
   HeroTitle,
-  HeroLittle,
+  
   ImageContainer,
 } from "./FlickrImages.style";
 import { PageContainer } from "../../globalStyles";
@@ -16,10 +16,10 @@ const FlickrImages = () => {
   const [query, setQuery] = useState("India");
 
   useEffect(() => {
-    const fetchItems = async () => {
-      setLoading(true);
+    const fetchItems = async () => {   //856469212751850d05909cd654396d65
+      setLoading(true);                                                    //e52a287d86469bf01ea901dfd92cf8a5
       const res = await axios(
-        `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=856469212751850d05909cd654396d65&text=${query}&sort=relevance&per_page=15&format=json&nojsoncallback=1`
+        `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e52a287d86469bf01ea901dfd92cf8a5&text=${query}&sort=relevance&per_page=15&format=json&nojsoncallback=1`
       );
       setResult(res.data.photos.photo);
       setLoading(false);
@@ -33,11 +33,12 @@ const FlickrImages = () => {
       <Header>
         <HeroTitle>Image Grid </HeroTitle>
         <Search image query={(q) => setQuery(q)} />
-        <HeroLittle>Example: dog, autnum, snow, winter</HeroLittle>
+       
       </Header>
       <ImageContainer>
         <ImageGrid loading={loading} result={result} />
       </ImageContainer>
+      
     </PageContainer>
   );
 };

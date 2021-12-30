@@ -30,7 +30,7 @@ const Search = ({ query, image }) => {
     <StyledInputWrap>
       <StyledInput
         type="text"
-        placeholder="Search images"
+        placeholder="Search Free high resolution photos"
         value={text}
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={onKeyDown}
@@ -41,7 +41,7 @@ const Search = ({ query, image }) => {
     <StyledInputWrapMap>
       <StyledInputMap
         type="text"
-        placeholder="Search images"
+        placeholder="Search Free high resolution photos"
         value={text}
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={(e) => onKeyDown(e)}
