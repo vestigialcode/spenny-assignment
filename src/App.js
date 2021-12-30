@@ -1,14 +1,15 @@
 
 import './App.css';
+import Gridcomponent from './components/Gridcomponent';
+import Searchcomponent from './components/Searchcomponent';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-     
-     
-      </header>
+      <h1>Image Grid</h1>
+      <Searchcomponent></Searchcomponent>
+      <Gridcomponent></Gridcomponent>
     </div>
   );
 }
