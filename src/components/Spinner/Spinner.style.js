@@ -12,7 +12,7 @@ export const SpinnerText = styled.div`
   text-align: center;
   display: flex;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 100px;
