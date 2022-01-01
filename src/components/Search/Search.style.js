@@ -20,15 +20,15 @@ export const StyledInput = styled.input.attrs({ type: "text" })`
 `;
 
 export const SearchButton = styled.button`
-  background-color: grey;
+  background-color: black;
   border: 0;
-  border-radius: 20px;
-  color: #fff;
+  border-radius:30px;
+  color: white;
   padding: 16px 24px;
   align-self: flex-end;
   align-items: right;
-  z-index: 1;
-  margin-right: 10px;
+  z-index: 0;
+  margin-right: 1px;
   cursor: pointer;
 `;
 
