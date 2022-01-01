@@ -5,7 +5,7 @@ import GlobalStyle from "./globalStyles";
 
 import FlickrImages from "./pages/FlickrImages/FlickrImages";
 
-import Footer from "./components/Footer/Footer";
+
 
 import ScrollToTop from "./ScrollToTop";
 
