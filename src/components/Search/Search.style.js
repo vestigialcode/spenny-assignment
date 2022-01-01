@@ -4,18 +4,19 @@ import styled from "styled-components";
 export const StyledInputWrap = styled.div`
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
   justify-content: center;
 `;
 
 export const StyledInput = styled.input.attrs({ type: "text" })`
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
   display: flex;
-  height: 56px;
+  height: 50px;
   padding: 16px;
-  width: 50%;
+  width: 80%;
   position: absolute;
+  font-size:medium;
 `;
 
 export const SearchButton = styled.button`
